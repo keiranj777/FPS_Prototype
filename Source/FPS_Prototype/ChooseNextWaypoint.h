@@ -7,7 +7,7 @@
 #include "ChooseNextWaypoint.generated.h"
 
 /**
- * 
+ * A "route card" to help AI choose their next waypoint
  */
 UCLASS()
 class FPS_PROTOTYPE_API UChooseNextWaypoint : public UBTTaskNode
