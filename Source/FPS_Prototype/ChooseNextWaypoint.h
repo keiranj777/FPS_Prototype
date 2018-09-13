@@ -20,6 +20,9 @@ protected:
     // expose index key - in patrol route
     UPROPERTY(EditAnywhere, Category="Blackboard")
     struct FBlackboardKeySelector IndexKey;
+    
+    UPROPERTY(EditAnywhere, Category="Blackboard")
+    struct FBlackboardKeySelector WaypointKey;
 	
 	
 };
